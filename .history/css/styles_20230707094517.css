@@ -66,15 +66,6 @@ body {
   letter-spacing: 0.32px;
 }
 
-.header-link:hover,
-.header-link:focus {
-  color: var(--iris);
-}
-
-.header-link:active {
-  color: var(--ocean);
-}
-
 .contact-link {
   color: var(--slate, #434455);
   font-size: 16px;
@@ -108,8 +99,6 @@ body {
 
 .hero-button {
   color: var(--white, #fff);
-  background-color: var(--iris);
-  font-family: inherit;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -119,12 +108,11 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--navyblue);
+  background-color: var(--navyblue: #2e2f42;);
 }
 .hero-button:active {
   background-color: var(--slate);
 }
-
 .button {
   cursor: pointer;
 }
@@ -185,38 +173,6 @@ body {
 
 .footer-text {
   color: var(--cloud, #f4f4fd);
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-}
-
-.filters-button {
-  color: var(--iris, #4d5ae5);
-  background: var(--cloud, #f4f4fd);
-  font-family: inherit;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
-}
-
-.filters-button:active {
-  color: #fff;
-  background: var(--ocean, #404bbf);
-}
-
-.projects-item-name {
-  color: var(--navyblue, #2e2f42);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
-}
-.projects-item-text {
-  color: var(--slate, #434455);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;

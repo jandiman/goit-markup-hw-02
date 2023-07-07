@@ -1,0 +1,9 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --footer-color: ;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}

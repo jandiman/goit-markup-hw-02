@@ -1,0 +1,25 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --footer-color: #f4f4fd;
+  --primary-background-white: #ffffff;
+  --secondary-background-navy: #2e2f42;
+  --tertiary-background-cloud: #f4f4fd;
+  --logo-color: #4d5ae5;
+  --button-active: #404bbf;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+}

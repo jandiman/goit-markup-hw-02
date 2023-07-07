@@ -193,7 +193,6 @@ body {
 .filters-button {
   color: var(--iris, #4d5ae5);
   background: var(--cloud, #f4f4fd);
-  font-family: inherit;
   text-align: center;
   font-size: 16px;
   font-style: normal;

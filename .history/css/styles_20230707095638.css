@@ -109,7 +109,6 @@ body {
 .hero-button {
   color: var(--white, #fff);
   background-color: var(--iris);
-  font-family: inherit;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -193,7 +192,6 @@ body {
 .filters-button {
   color: var(--iris, #4d5ae5);
   background: var(--cloud, #f4f4fd);
-  font-family: inherit;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -207,7 +205,7 @@ body {
   background: var(--ocean, #404bbf);
 }
 
-.projects-item-name {
+.row1-item-name {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-style: normal;
@@ -215,9 +213,12 @@ body {
   line-height: 24px;
   letter-spacing: 0.4px;
 }
-.projects-item-text {
-  color: var(--slate, #434455);
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+
+.row1-item-text {Copy
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
