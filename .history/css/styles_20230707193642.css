@@ -5,12 +5,6 @@
   --cloud: #f4f4fd;
   --iris: #4d5ae5;
   --ocean: #404bbf;
-  --accent: #ecf1f4;
-  --cornflower: #e7e9fc;
-  --green: #31d0aa;
-  --grey: #2e2f42b2;
-  --light-slate: #8e8f99;
-  --navyblue-modal: #2e2f4266;
 }
 
 body {
@@ -109,7 +103,6 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
-  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -149,12 +142,14 @@ body {
 
 .team-item-name {
   color: var(--navyblue, #2e2f42);
+  text-align: center;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.4px;
 }
 .team-item-text {
   color: var(--slate, #434455);
+  text-align: center;
 }
 .footer {
   background: var(--navyblue, #2e2f42);
@@ -164,32 +159,15 @@ body {
   color: var(--cloud, #f4f4fd);
 }
 
-.filters-button-active {
-  color: #fff;
-  background: var(--ocean, #404bbf);
-  border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  font-family: inherit;
-  text-align: center;
-  font-weight: 500;
-  letter-spacing: 0.64px;
-  cursor: pointer;
-}
-
 .filters-button {
   color: var(--iris, #4d5ae5);
   background: var(--cloud, #f4f4fd);
-  border-radius: 4px;
-  border: 1px solid var(--cornflower, #e7e9fc);
   font-family: inherit;
   text-align: center;
   font-weight: 500;
   letter-spacing: 0.64px;
-  cursor: pointer;
 }
 
-.filters-button:hover,
-.filters-button:focus,
 .filters-button:active {
   color: #fff;
   background: var(--ocean, #404bbf);
